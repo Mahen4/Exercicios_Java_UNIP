@@ -137,10 +137,11 @@ class Atendente{
 		} else {
 			clinica.filaEspera(paciente);			
 		}
+		this.atendimentosRealizados++;
 	}
 	
 	void marcarConsulta() {
-		this.agendamentosRealizados += 1;
+		this.agendamentosRealizados++;
 	}
 	
 }
